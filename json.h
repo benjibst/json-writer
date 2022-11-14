@@ -30,7 +30,6 @@ typedef struct json_context json_context;
 //functions to deal with context
 json_context json_initcontext(FILE* f);
 void json_makectxcurrent(json_context *ctx);
-void json_freecurrctx();
 
 //functions to write json file
 void json_beginobject();
