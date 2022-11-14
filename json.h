@@ -23,7 +23,6 @@ struct json_context
     json_lvl lvl[255];
     FILE* outfile;
     size_t lvlidx;
-    size_t bufsz;
 };
 typedef struct json_context json_context;
 
