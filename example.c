@@ -31,3 +31,4 @@ int main()
     json_endobject();
     fclose(example);
 }
+
