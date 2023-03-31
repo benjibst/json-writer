@@ -1,6 +1,6 @@
 #include "json.h"
 
-json_context *curr_ctx;
+static json_context *curr_ctx;
 
 json_context json_initcontext(FILE* f)
 {
